@@ -1,3 +1,48 @@
+
+
 body {
-    background-color: rgb(159, 117, 32);
+    background-color: rgb(119, 119, 119);
+    margin: 0;
+    padding: 0;
 }
+
+#nav-bar {
+    background-color: brown;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    margin-top: 0;
+
+}
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+
+
+}
+
+li {
+    color: rgb(231, 233, 234);
+    margin-right: 18px;
+    list-style: none;
+}
+
+
+#welcome-section {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+ p {
+    
+    color: red;
+    text-align: center;
+
+ }
